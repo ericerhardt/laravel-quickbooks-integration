@@ -50,10 +50,11 @@
             }
         }
     },
-  "minimum-stability": "beta",
-    "prefer-stable": false,
-    "config": {
-        "sort-packages": true
-    }
+  "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "beta",
+    "prefer-stable": false
 }
 
